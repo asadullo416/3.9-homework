@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <textarea name="" class="text" id="" cols="30" rows="10"></textarea>
+     <button type="button" onclick="func()">qidirish</button>
+     <p id="numberofText"></p>
+     
+     
+     <script>
+      function func () {
+        let text = document.getElementsByClassName("text")[0].value;
+        
+        const r = text.split(' '); 
+
+        let result = document.getElementById("numberofText")
+        result.innerHTML = r.length
+
+      }
+
+
+
+    </script>  
+
+
+
+</body>
+</html>

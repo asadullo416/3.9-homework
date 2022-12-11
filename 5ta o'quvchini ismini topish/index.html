@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    
+
+<script>
+
+
+let names = [
+{ism: 'Abdulloh'},
+{ism: 'Jamshid'},
+{ism: 'Abdumalik'},
+{ism: 'Hurmatullo'},
+{ism: 'Gulnoza'},
+]
+
+for (let i = 0; i < names.length; i = i + 1) {
+     let massiv = names[i];
+
+     let soz1 = massiv.ism.includes('Abdu')
+     let soz2 = massiv.ism.includes('Gul')   
+  
+    if (soz1) {
+        console.log(massiv);
+    } 
+
+    if (soz2) {
+        console.log(massiv);
+    }
+
+     else {
+        console.log(`error`)
+     }
+
+
+}
+
+
+</script>
+
+</body>
+</html>
